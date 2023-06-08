@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(23,23,23);
+    background: linear-gradient(350deg, rgb(10, 10, 10) 0%, rgb(29, 29, 29) 100%);    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.welcome {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: muncul2 2s;
+}
+
+.place {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: muncul2 2s;
+}
+
+.disclaimer {
+    color: #b3b1b1;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: muncul2 2s;
+    transition: all ease 0.3s;
+}
+
+.disclaimer:hover {
+    color: #FFF;
+}
+
+.cinerate {
+    margin-top: 300px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 38px;
+    position: absolute;
+    margin-top: 235px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: muncul2 2s;
+}
+
+.socials {
+    word-spacing: 30px;
+    font-size: 12px;
+    color: #FFF;
+    margin-top: 25px;
+}
+
+.kiri {
+    height: 500px;
+    width: 230px;
+    position: absolute;
+    border-radius: 8px;
+    background-image: url('../images/vr.jpg');
+    background-size: cover;
+    opacity: 30%;
+    animation: muncul 2s;
+    transition: all 0.3s ease;
+        margin-left: -70px;
+        margin-top: -50px;
+}
+
+.judulyacoi {
+    color: #ffffff73;
+    font-size: 12px;
+    display: block;
+    max-width: fit-content;
+        margin-top: 470px;
+        margin-left: 85px;
+}
+
+.kanan:hover {
+    transition: all 0.3s ease;
+    opacity: 100%;
+}
+
+.kiri:hover {
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+
+.kanan {
+    height: 500px;
+    width: 230px;
+    position: absolute;
+    border-radius: 8px;
+    background-image: url('../images/laptop.jpg');
+    background-size: cover;
+    margin-left: 1170px;
+    margin-top: 130px;
+    opacity: 30%;
+    animation: muncul 2s;
+    transition: all 0.3s ease;
+}
+
+.juduliyah {
+    color: #ffffff73;
+    font-size: 12px;
+    display: block;
+    max-width: fit-content; 
+        margin-top: 470px;
+        margin-right: 45px;
+}
+
+.join {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 430px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    width: 120px;
+        border-radius: 100px;
+        border: solid 1px #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.join a:hover {
+    color: #000;
+    
+}
+
+.join:hover {
+    transition: all 0.3s ease;
+    background-color: #FFF;
+    color: #000;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 30%;
+    }
+}
+
+@keyframes muncul2 {
+    from {
+        opacity: 30%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
